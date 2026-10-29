@@ -1,5 +1,6 @@
-def calculate(a, b):
+﻿def add(a, b):
     return a + b
 
 if __name__ == "__main__":
     print(calculate(2, 3))
+
