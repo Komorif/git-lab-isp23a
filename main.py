@@ -15,3 +15,5 @@ def parse_number(value):
         return float(value)
     except (TypeError, ValueError) as exc:
         raise ValueError('invalid numeric value') from exc
+def multiply(a, b):
+    return a * b
